@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+/*左侧楼层区域*/
+#left-choice{width:30px;height:347px;background:#fff;position:fixed;left:50%;bottom:30%;margin-left:-650px;text-align:center;display: none;}
+.left-f li{font-size:12px;width:30px;height:28px;line-height:28px;border-bottom:1px dotted #c2c2c2;position:relative;}
+.left-f li a{display:none;width:30px;height:28px;position:absolute;left:0;top:0;color:#fff;background-color:#c81623;}
+.left-f li.ac a{display:block;}
+/*左侧商品分类导航区、banner区域和今日推荐的区域*/
+.floor1{height:640px;}
+/*左侧商品分类导航区*/
+.floor1 .nav-list{float:left;width:210px;background:#c81623;height:466px;position:relative;z-index: 20;}
+.floor1 .nav-list .l-l{color:#fff;height:31px;line-height:31px;border-left:1px solid transparent;}
+.floor1 .nav-list .l-l a{font-size:14px;color:#fff;}
+.floor1 .nav-list .l-l i{font-size:9px;font-style:normal;font-family:consolas;position:absolute;top:0;right:-1px;}
+.floor1 .nav-list .l-l h3{font-weight:normal;padding:0 11px;width:172px;height:31px;overflow:hidden;font-size:12px;white-space:nowrap;position:relative;}
+.floor1 .nav-list .l-l:hover{background:#f7f7f7;border-left:1px solid #c81623;color:#c81623;}
+.floor1 .nav-list .l-l:hover a{color:#c81623;}
+.floor1 .nav-list .l-l:hover i{color:#fff;}
+/*左侧商品分类导航区的隐藏区域*/
+.floor1 .nav-list .cebian{background: #f7f7f7;border:1px solid #b61d1d;width:959px;min-height:425px;position:absolute;left:209px;top:-1px;padding:20px;z-index:8;display:none;}
+.floor1 .nav-list .cebian .left{float:left;width:710px;}
+.floor1 .nav-list .cebian .left ul{width: 710px;height:24px;overflow:hidden;}
+.floor1 .nav-list .cebian .left li{float:left;}
+.floor1 .nav-list .cebian .left li a{display: block;float:left;background:#7c7171;height:24px;line-height:24px;font-size:12px;color:#fff;padding:0 31px 0 7px;margin-right:10px;position:relative;}
+.floor1 .nav-list .cebian .left li a:hover i{background-color:#b1191a;}
+.floor1 .nav-list .cebian .left li a:hover{background-color:#c81623;}
+.floor1 .nav-list .cebian .left li a i{width:23px;height:22px;background:#5c5251;text-align:center;line-height:22px;font-size:12px;font-family:Consolas;position:absolute;right:0;bottom:0;}
+.floor1 .nav-list .cebian .left .left-bot{padding-top:6px;}
+.floor1 .nav-list .cebian .left dl{}
+.floor1 .nav-list .cebian .left .left-bot a:hover{color:#c81623;}
+.floor1 .nav-list .cebian .left dt{float:left;width:84px;}
+.floor1 .nav-list .cebian .left dt a{font-size: 12px;font-weight:bolder;height:31px;line-height:31px;padding-top:5px;text-align:right;display:block;padding-right:30px;position:relative;width:54px;overflow:hidden;white-space:nowrap;color:#666;}
+.floor1 .nav-list .cebian .left dt i{position:absolute;right:17px;top:5px;color:#666;}
+.floor1 .nav-list .cebian .left dd{float: left;width:620px;padding:10px 0 2px 0;border-bottom:1px solid #eee}
+.floor1 .nav-list .cebian .left dd a{display: block;float:left;font-size:12px;height:16px;line-height:16px;padding:0 8px;border-left:1px solid #e0e0e0;margin-bottom:8px;white-space:nowrap;color:#666;}
+/*左侧商品分类导航区的隐藏区域的图片区域*/
+.floor1 .nav-list .cebian .right{float:right;width:168px;}
+.floor1 .nav-list .cebian .right li{float:left;padding:0 0 1px 1px;width:83px;height:35px;overflow:hidden;}
+.floor1 .nav-list .cebian .right a{font-size:0;}
+.floor1 .nav-list .cebian .right .big-icon{padding-top:10px;}
+.floor1 .nav-list .cebian .right .big-icon a{display:block;margin-bottom:1px;width:168px;height: 132px;overflow:hidden;}
+/*轮播图区*/
+.slide { width: 730px; height: 454px; overflow: hidden; position: relative;float:left;margin:12px 10px 0; }
+.slide ul { position:relative;width: 730px; height: 454px;}
+.slide ul li { width: 730px; height: 454px;}
+.slide ul li img{width: 730px; height: 454px;}
+.sliderBtn{ position:absolute; bottom:20px; z-index:10; right:293px}
+.sliderBtn a{ display:inline-block;height:12px;margin:0 2px;width:12px; background:#fff; border:1px solid #222;text-align:center;border-radius: 50%;}
+.sliderBtn .activeSlide{ background:red; color:#fff}
+.slide .prevBtn,.slide .nextBtn{position: absolute; width: 40px; height:40px; border-radius: 50%;line-height:35px; font-size:30px;color: #fff; text-align: center;background: #333; opacity:.4; top: 50%; margin-top:-20px; z-index:10}
+.slide .prevBtn { left: 10px; display: none;}
+.slide .nextBtn { right: 10px; display: none;}
+.slide:hover .prevBtn{display: inline-block;}
+.slide:hover .nextBtn{display: inline-block;}
+.slide .prevBtn:hover{opacity:.7}
+.slide .nextBtn:hover{opacity:.7}
+/*右侧京东快报及话费机票区域*/
+.floor1 .f1-right{float:left;width:250px;margin-top:12px;}
+/*滚动新闻区域*/
+.floor1 .f1-right dl{height:163px;border:1px solid #e4e4e4;position: relative;overflow: hidden;}
+.floor1 .f1-right dt{height:32px;line-height:32px;padding:0 15px;border-bottom:1px dotted #e8e8e7;color:#666;font-size:16px;font-weight:normal;float:left;margin-bottom:5px;width:218px;background-color: #fff;position: relative;z-index: 2;}
+.floor1 .f1-right dt a{color:#666;font-size:12px;float:right;font-family:consolas;font-weight:bolder;}
+.floor1 .f1-right dd{float:left;line-height:24px;height:24px;overflow:hidden;padding-left:15px;width:233px;position: relative;}
+.floor1 .f1-right dd a{color:#666;font-size:12px;font-family:"宋体";}
+.floor1 .f1-right dt a:hover{color:#c81623;}
+.floor1 .f1-right dd:hover a{color:#c81623;}
+/*话费机票小图标集合区域*/
+.floor1 .f1-right .ul-list{height:209px;overflow:hidden;white-space:nowrap;width:248px;border-left:1px solid #e4e4e4;border-right:1px solid #e4e4e4;position: relative;}
+.floor1 .f1-right .small-icon-gather{width:252px;position:absolute;/*top:-209px;*/ }
+.floor1 .f1-right .small-icon-gather li{float: left;text-align: center;}
+/*隐藏着的区域*/
+.floor1 .f1-right .small-icon-gather .last{width:252px;height: 208px;float: left; position: relative;border-bottom: 1px solid #ccc;}
+.floor1 .f1-right .small-icon-gather .last a{display: inline-block;}
+.floor1 .last .small-icon-title li a{height: 33px;line-height: 33px; border-top: 2px solid #fff;width: 62px;border-right:1px solid #e4e4e4;}
+
+.floor1 .last .small-icon-title .li-hover a{color: #e01121;border-top-color: #e01121;}
+
+.floor1 .last .exit-hide-part{position: absolute;right: 8px;  top: 40px;  width: 14px;  height: 14px;  line-height: 10px;  text-align: center;font-family: Consolas;  font-style: normal;  -webkit-text-stroke-width: .2px;font-size: 22px;}
+.floor1 .last .exit-hide-part:hover{color: #e01121;background-color: rgba(0,0,0,.2)}
+.floor1 .last .small-icon-content{margin-top: 20px; position: relative; }
+.floor1 .last .smallest-title{height: 21px;  padding: 0px 0 0 30px;  overflow: hidden;}
+.floor1 .last .smallest-title li{margin-right: 19px;}
+.floor1 .last .smallest-title li.ac-bg a{color: #fff;background: url(../images/down-triangle-red.png) center 0 no-repeat;}
+.floor1 .last .smallest-title a{position: relative; display: block;  padding: 0 2px;  line-height: 16px;  color: #666;  white-space: nowrap;  height: 21px;}
+.floor1 .last .smallest-content{width: 756px;overflow:hidden;position: relative;}
+.floor1 .last .smallest-content li{width:252px;position: relative;text-align: left;}
+.floor1 .last .smallest-content span,input,select,i{display: inline-block;vertical-align: middle;}
+.floor1 .last .smallest-content select{vertical-align: middle;}
+.floor1 .last .smallest-content button{display:block;}
+/*话费充值区域*/
+.floor1 .last .phone-number{margin: 10px 0 10px 30px;  }
+.floor1 .last .phone-number input{border: 1px solid #ccc;width:100px;color: rgb(153, 153, 153);height: 21px;}
+.floor1 .last .face-value{margin: 0 0 10px 32px;}
+.floor1 .last .face-value .price-range,.time-range{color: #e01222;position: absolute;    left: 147px;}
+
+.floor1 .last .fast-recharge{width: 89px;height: 30px;  background: #e01222;  color: #fff;  text-align: center;  border: 0; cursor: pointer;  margin: 6px 0 0 30px; }
+.floor1 .last .grab-charge{color: #527cdb;    margin: 7px 0 0 31px;}
+.floor1 .last .grab-charge:hover{color: #e01222;}
+.floor1 .last .grab-charge i{display: inline-block;width: 34px;  height: 14px;  margin-right: 3px;  vertical-align: -3px;  background: url(../images/hot-icon.png) 0 0 no-repeat;}
+/*流量充值区域*/
+.floor1 .last .middle-smallest-content .phone-number{margin: 10px 0 5px 30px;  }
+.floor1 .last .flow-value{    margin: 0 0 23px 30px;}
+.floor1 .last .flow-value .flow-range{color: #e01222;position: absolute;left: 30px; top: 61px; }
+/*国内机票区域*/
+.floor1 .last .air-ticket form{padding:0 21px;position: relative;}
+.floor1 .ul-list .last .air-ticket button{display: inline-block;margin:0 0;line-height: 100%;}
+.floor1 .ul-list .last .air-ticket .air-input{margin:1px 0;padding:3px 0 4px 50px;border:1px solid #ccc;  width: 90px;}
+.floor1 .ul-list .last .air-ticket .first{position: absolute;height: 22px;color: #999;background: #f5f5f5;width: 40px;text-align: center;line-height: 22px;}
+.floor1 .last .passenger-ticket{ padding: 0px 0 0 18px;}
+.floor1 .last .air-ticket input{margin:5px 0;   }
+.floor1 .ul-list .last .air-ticket .airStart{left: 22px;top: 25px;}
+.floor1 .ul-list .last .air-ticket .airArrive{left: 22px;top: 51px;}
+.floor1 .ul-list .last .air-ticket .arriveDate{left: 22px;top: 77px;}
+.floor1 .ul-list .last .air-ticket .hot-now{color: #527cdb;}
+.floor1 .ul-list .last .air-ticket .hot-now:hover{color: #c81623;}
+.floor1 .ul-list .last .air-ticket .change-city{position: absolute;  width: 16px;  height: 16px;  top: 41px;  background: url(../images/change-city-new.jpg) no-repeat 0 0;  cursor: pointer;left: 177px;}
+.floor1 .ul-list .last .air-ticket .change-city:hover{background: url(../images/change-city.png) no-repeat 0 0;}
+.floor1 .ul-list .last .air-ticket .back-date{position: absolute;  left: 148px;  top: 75px;  width: 81px;  padding-left: 0; display: none;}
+/*机票特惠活动区域*/
+.floor1 .ul-list .last .air-ticket .privilege-left{display: inline-block;margin-left: 13px;}
+.floor1 .ul-list .last .air-ticket .privilege-right{display: inline-block;margin-left: 10px;}
+/*酒店区域--国内港澳台*/
+.floor1 .ul-list .last .air-ticket .hotel .second{width: 55px;}
+.floor1 .ul-list .last .air-ticket .hotel .airStart{left: 22px;  top: 2px}
+.floor1 .ul-list .last .air-ticket .hotel .airArrive{left: 22px;  top: 28px;}
+.floor1 .ul-list .last .air-ticket .hotel .arriveDate{left: 22px;  top: 54px; }
+.floor1 .ul-list .last .air-ticket .hotel .air-input{padding: 3px 0 4px 60px;width:130px;}
+.floor1 .ul-list .last .air-ticket .hotel .hotel-palce{padding: 3px 0 4px 0px;width:190px;text-align: center;}
+/*游戏*/
+.floor1 .last .my-fourth li{ margin-right: 50px;}
+.floor1 .ul-list .last .air-ticket .game .air-input{margin: 10px 0;}
+.floor1 .ul-list .last .air-ticket .game .airStart {left: 22px; top: 11px;}
+.floor1 .last .game .face-value { margin: 0 0 10px 0px;  }
+.floor1 .last .game .game-range,.game-range1{color: #e01222;  position: absolute; left: 147px;}
+/*显示着的区域*/
+.floor1 .f1-right .show-li{width:62px;height:70px;float:left;border-right:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;text-align:center;position:relative;}
+.floor1 .f1-right .lichai{height:66px;}
+.floor1 .f1-right .lipingka{height:66px;}
+.floor1 .f1-right .zhongc{height:66px;}
+.floor1 .f1-right .baitiao{height:66px;}
+.floor1 .f1-right .right{width:59px;}
+.floor1 .f1-right .show-li a{display:block;width:100%;height:100%;}
+.floor1 .f1-right .show-li a span{background:url(../images/57620a6fN77b2b8af.png) no-repeat;display:block;width:25px;height:25px;position:absolute;top:12px;left:18px;}
+.floor1 .f1-right .show-li a p{font-size:12px;color:#666;line-height:30px;padding-top:40px;text-align: center;}
+.floor1 .f1-right .show-li a:hover p{color:#c81623;}
+.floor1 .f1-right .show-li .two{background-position:0px -25px;}
+.floor1 .f1-right .show-li .san{background-position:0px -150px;}
+.floor1 .f1-right .show-li .si{background-position:0px -75px;}
+.floor1 .f1-right .show-li .wu{background-position:0px -100px;}
+.floor1 .f1-right .show-li .liu{background-position:0px -125px;}
+.floor1 .f1-right .show-li .qi{background-position:0px -50px;}
+.floor1 .f1-right .show-li .ba{background-position:0px -175px;}
+.floor1 .f1-right .show-li .jiu{background-position:0px -225px;}
+.floor1 .f1-right .show-li .shi{background-position:0px -200px;}
+.floor1 .f1-right .show-li .shiyi{background-position:0px -275px;}
+.floor1 .f1-right .show-li .shier{background-position:0px -250px;}
+.floor1 .f1-right .pic-down{margin-top:5px;width:250px;height:75px;}
+
+/*今日推荐小时钟区域*/
+.floor1 .f1-bot .left{width:210px;height:151px;float:left;background-image:url(../images/section_2_07.jpg);margin-top:10px;}
+.floor1 .f1-bot .circle{width:62px;height:62px;margin:0 auto;background-color: #fff;border-radius:50%;
+margin-top:30px;position: relative;}
+.floor1 .f1-bot .circle .small-ball:after{content:"";width:6px; height:6px; background:#c81623;;position: absolute;top:0;left:0;border-radius: 50%;}
+.floor1 .f1-bot .circle .small-ball{position: absolute;width: 31px;height: 1px;top:50%;transform-origin: 100%;animation: run 4s  linear infinite;}
+@keyframes run{
+    100%{transform:rotate(360deg);}
+}
+.floor1 .f1-bot .circle .big-box-cover{width:50px;height:50px;background-image:url(../images/section_2_07.jpg);border-radius:50%;position: absolute;left: 6px;top: 6px;}
+.floor1 .f1-bot .circle .big-box-cover:before{  transform-origin: 50% 25px; -webkit-animation: anim_l 1s linear infinite;  content: " ";  display: block; position: absolute;  width: 3px;  background: #fff;  top: 0;left: 23px; height: 25px;border-radius: 100%;}
+.floor1 .f1-bot .circle .big-box-cover #second-pointer{z-index: 10;display: block;  position: absolute;  left: 23px;  top: 5px; width: 4px;  height: 20px;background: #fff;border-radius: 100%;-webkit-transform-origin:50% 20px;}
+@keyframes anim_l{
+    from{ transform:rotate(0deg) ; -webkit-transform:rotate(0deg) ;}
+    to{ transform:rotate(360deg) ; -webkit-transform:rotate(360deg) ;}
+}
+.floor1 .f1-bot .left h2{font-size:18px;line-height:39px;color:#FFFFFF;font-weight:normal;text-align:center;}
+/*今日推荐小时钟区域右侧的图片list*/
+.floor1 .f1-bot .pic-list{float:left;position:relative;padding-top:10px;position:relative;}
+.floor1 .f1-bot .pic-list .baixian{height:164px;width:1px;background-color:#fff;position:absolute;right:0;top:0;}
+/*今日推荐区域*/
+.floor2{overflow: hidden;}
+.floor2 .f2-top{padding-top:18px;border-bottom:1px solid #d1d1d1;overflow: hidden;}
+.floor2 .f2-top h3{float:left;    height: 36px; line-height: 36px;font-size:20px;color:#333;position: relative;background:url(../images/homebg.png) no-repeat 99px -90px;width:319px;}
+/*
+.floor2 .f2-top .bg{height:30px;width:210px;background:url(../images/homebg.png) no-repeat 14px -93px;float:left;margin-top:5px;}
+*/
+.floor2 .f2-top a{float:right;display:block;height:20px;line-height:20px;font-size:12px;font-family:"宋体";width:61px;background:url(../images/homebg.png) no-repeat -310px -5px;margin-top:12px;color:#666;}
+.floor2 .f2-top a:hover{color:#b61d1d;background-position:-310px -29px;}
+.floor2 .f2-next a{display:block;}
+.floor2 .f2-next a:hover p{color:#b61d1d;}
+.floor2 .f2-next{width:2416px;height:231px;border:1px solid #ededed;border-top:none;position: relative;}
+.floor2 .f2-next li{float:left;padding:20px 35px 0 35px;width:130px;text-align:center;height: 212px;}
+.floor2 .f2-next li .icon{width:130px;height:130px;overflow:hidden;font-size:0;position: relative;}
+.floor2 .f2-next li .icon img{position: absolute;left: 0;  top: 0;}
+.floor2 .f2-next li p{line-height:18px;font-size:12px;text-align:left;height:36px;width:130px;
+overflow:hidden;padding-top:10px;color:#666;}
+.floor2 .f2-next li span{display:block;height:31px;text-align:left;line-height:31px;color:#b51d42;font-size:18px;}
+.floor2 .f2-next li span sub{font-size:14px;}
+.floor2 .f2-next .line{width:1px;height:62px;background:#e6e6e6;margin-top:140px;padding-left:0;padding-right:0;}
+/*京东·品质生活区域*/
+.floor2 .f2-mid{padding-top:22px;}
+.floor2 .f2-mid a{display:block;}
+.floor2 .f2-mid h4{height:34px;line-height:34px;font-size:20px;color:#333;}
+.floor2 .f2-mid .top{border:1px solid #ededed;}
+.floor2 .f2-mid .left{position:relative;width: 403px;float:left;background:#f7f7f7;border-right:1px solid #ededed;}
+.floor2 .f2-mid .left img{position: relative ;}
+.floor2 .f2-mid .left .newfind{display:block;color:#333;width:100%;height:100%;}
+.floor2 .f2-mid .left .newfind h5{height:40px;line-height:40px;text-align:center;color:#333;font-size:15px;margin:0 20px;border-bottom:1px dashed #e0e0e0;}
+.floor2 .f2-mid .left .big-p{display:block;font-size:0;width:403px;height:205px;overflow:hidden;border-bottom:1px solid #ededed;overflow: hidden;}
+.floor2 .f2-mid .left .l-mid .jieshao{display:block;position:absolute;left:45px;top:101px;}
+.floor2 .f2-mid .jieshao h5{font-size:16px;color:#333;height:37px;line-height:37px;}
+.floor2 .f2-mid .jieshao p{font-size: 12px;color:#333;height:18px;line-height:18px;}
+.floor2 .f2-mid .jieshao span{font-size:12px;color:#c81623;height:18px;line-height:18px;}
+.floor2 .f2-mid .left .l-bot .small-p{display:block;float:left;font-size:0;display:block;position:relative;overflow: hidden;}
+.floor2 .f2-mid .left .l-bot .lefto{border-right:1px solid #ededed;}
+.floor2 .f2-mid .left .l-bot .jieshao{display:block;position:absolute;left:10px;top:40px;}
+.floor2 .f2-mid .middle{position:relative;width:228px;float:left;border-right:1px solid #ededed;text-align:center;}
+.floor2 .f2-mid .middle img{position: relative;}
+.floor2 .f2-mid .middle .m-top h5{ght:40px;line-height:40px;text-align:center;color:#333;font-size:15px;margin:0 20px;border-bottom:1px dashed #e0e0e0;}
+.floor2 .f2-mid .middle .m-mid .jieshao{display:block;position:absolute;left:10px;top:101px;}
+.floor2 .f2-mid .middle .m-small-p{position:relative;display:block;overflow: hidden;}
+.floor2 .f2-mid .middle .m-big-p{overflow: hidden;}
+.floor2 .f2-mid .middle .topo{border-bottom:1px solid #e0e0e0;}
+.floor2 .f2-mid .middle .m-bot .jieshao{display:block;position:absolute;left:10px;top:40px;}
+.floor2 .f2-mid .right .u-left{float:left;border-right:1px dashed #e0e0e0;width:85px;margin-top:13px;height:381px;overflow:hidden;}
+/*京东·品质生活右侧icon区域*/
+.floor2 .f2-mid .right ul{margin-top:-13px;}
+.floor2 .f2-mid .right .u-left li{border-bottom: 1px dashed #e0e0e0;margin-left:11px;}
+.floor2 .f2-mid .right .u-left li a{display: block;font-size:0;text-align:center;margin-left:-8px;width:85px;height:57px;overflow:hidden;}
+.floor2 .f2-mid .right .u-right{float:left;width:85px;margin-top:13px;height:381px;}
+.floor2 .f2-mid .right .u-right li{margin-left:0;margin-right:11px;border-bottom: 1px dashed #e0e0e0}
+.floor2 .f2-mid .right .u-right li a{margin-left:0;margin-right:-11px;display: block;font-size:0;text-align:center;width:85px;height:57px;overflow:hidden;}
+/*京东·品质生活底部图片区域*/
+.floor2 .f2-bot{padding-top:20px;width:1210px;height:120px;overflow:hidden;}
+.floor2 .f2-bot .red-p{display:block;float:left;font-size:0;}
+/*1F区域*/
+.floor3 .f3-top{border-bottom:1px solid #c81623;position: relative;}
+
+/*1F标题区域*/
+.floor3 .f3-top .floor-num{width:26px;height: 34px; background: url(../images/lou.png) no-repeat 0px 0px;  position: absolute; top: 0;}
+.floor3 .f3-top .floor-num span{width: 26px; height: 34px;  display: block;  font-weight: 700;  font-size: 18px;  color: white;  line-height: 30px;  text-align: center;}
+.floor3 .f3-top h3{float: left;height:40px;line-height:40px;font-size:20px;color:#333;font-weight:normal;margin-left: 36px;}
+/*1F标题右侧导航区域*/
+.floor3 .f3-top .nav{float:right;padding-top:5px;}
+.floor3 .f3-top ul{border-top:1px solid #ededed;}
+.floor3 .f3-top li{float:left;height:31px;line-height:31px;position:relative;border-top:3px solid #fff;border-left:1px solid #fff;border-right:1px solid #fff;}
+.floor3 .f3-top .first{border-left:1px solid #ededed;}
+.floor3 .f3-top .last{border-right:1px solid #ededed;}
+.floor3 .f3-top a{display:block;color:#666666;font-size:12px;font-family:"宋体";padding:0 15px;padding-top:1px;}
+.floor3 .f3-top li span{width:1px;height:14px;background:#cccccc;position:absolute;right:-2px;;top:10px;z-index:2;}
+.floor3 .f3-top li:hover a{height:32px;background:#fff;}
+.floor3 .f3-top li:hover{border-color:#c81623;margin-top:-1px;padding-top:1px;z-index:3;}
+.floor3 .f3-top li:hover span{background:transparent;}
+/*1F中间左侧导航区域*/
+.floor3 .f3-mid a{overflow: hidden;position: relative;}
+.floor3 .f3-mid img{position: relative;}
+.floor3 .f3-mid .list-content{width:330px;position:relative;}
+.floor3 .f3-mid .l-top{margin-top:-220px;padding-left:25px;background:rgba(255,255,255,0.50); position:relative;z-index:2;height:92px;}
+.floor3 .f3-mid .l-top li{float:left;padding: 10px 0;width:100px;height:26px;overflow:hidden;} 
+.floor3 .f3-mid .l-top a{display:block;padding-left:31px;font:13px/26px "Microsoft YaHei";
+background:url(../images/clothesicon.png) no-repeat;color:#666;}
+.floor3 .f3-mid .l-top .nvzhuang{background-position:0 -26px;}
+.floor3 .f3-mid .l-top .neiyi{background-position:0 -52px;}
+.floor3 .f3-mid .l-top .xiexue{background-position:0 -78px;}
+.floor3 .f3-mid .l-top .xiangbao{background-position:0 -104px;}
+.floor3 .f3-mid .l-top .shechi{background-position:0 -130px;}
+.floor3 .f3-mid .l-bot{padding:16px 0;height:96px;background:rgba(255,255,255,0.70);position:relative;z-index:2;}
+.floor3 .f3-mid .l-bot li{float:left;}
+.floor3 .f3-mid .l-bot a{margin-right:11px;font:12px/24px "宋体";white-space:nowrap;float:left; color:#999;}
+.floor3 .f3-mid .l-bot .ul-l{width:118px;padding:0 17px 0 25px;float:left;height:96px;overflow:hidden;}
+.floor3 .f3-mid .l-bot .ul-r{width:118px;padding:0 17px 0 25px;float:left;height:96px;overflow:hidden;}
+.floor3 .f3-mid .l-bot .active{color:#c81623;}
+.floor3 .f3-mid a:hover{color:#c81623;}
+.floor3 .f3-mid .nav-list .n-l-bot{width:328px;height:158px;border:1px solid #ededed;overflow:hidden;border-left:1px solid #f7f5ee;margin-top:-2px;position: relative;}
+.floor3 .f3-mid .nav-list{float:left;}
+.floor3 .f3-mid .nav-list .n-l-bot a{font-size:0;}
+.floor3 .f3-mid .f3-m-left{float:left;}
+.floor3 .f3-mid .f3-m-left a{font-size:0;}
+.floor3 .f3-mid .f3-m-left .top{width:439px;height:157px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.floor3 .f3-mid .f3-m-left .mid{width:439px;height:315px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.floor3 .f3-mid .f3-m-left .bot{width:439px;height:158px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.floor3 .f3-mid .f3-m-mid{float:left;}
+.floor3 .f3-mid .f3-m-mid .top{font-size:0;width:219px;height:157px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.floor3 .f3-mid .f3-m-mid .last{height:158px;}
+.floor3 .f3-mid .f3-m-mid .l-last{height:316px;}
+/*1F底部商标区域*/
+.floor3 .f3-bot{margin-top:10px;background:#f7f7f7;padding:13px 0;height:40px;}
+.floor3 .f3-bot li{float:left;padding:0px 10px;border-right:1px dotted #ccc;}
+.floor3 .f3-bot li a{display:block;height:40px;width:100px;overflow:hidden;font-size:0;}
+.floor3 .f3-bot .last{border:none;}
+.last-feature{margin:20px 0 14px 0;height:94px;background-color:#f5f5f5;}
+.last-feature ul{padding-left:11px;}
+.last-feature ul li{float:left;width:220px;height:54px;margin:20px 0;padding-right:80px;background:url(../images/nva_bg.png) no-repeat left -130px;}
+.last-feature .two{background-position:left -196px;padding-right:84px;}
+.last-feature .three{background-position:left -258px;padding-right:85px;}
+.last-feature .four{background-position:left -322px;padding-right:70px;}
+
+
+
+
+
+
+

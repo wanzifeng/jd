@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+html{height:100%}
+body{height:100%}
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,hr,blockquote,object,iframe,fieldset,input,legend,form,th,td{margin:0;padding:0}
+body,input,textarea,keygen,select,button,isindex,pre,a{font:14px/24px Verdana,"\5FAE\8F6F\96C5\9ED1";color:#333;word-wrap:break-word; text-align:justify}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+h1{font-size:24px}h2{font-size:20px}h3{font-size:18px}h4{font-size:16px}h5{font-size:14px}h6{font-size:14px}
+ul,ol,li{list-style:none;}
+img{vertical-align:middle;border: none 0}
+i,b,em,strong{font-style:normal;font-weight:normal}
+a{cursor:pointer;text-decoration:none;color:#666}

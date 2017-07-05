@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,textarea,input,button{margin:0;padding:0;}
+input{outline: none;}
+a{text-decoration:none;color:#666 ;}
+ul,li{list-style:none;}
+img,input,button{border:none;}
+i,em{font-style: normal;}
+img{vertical-align: middle;}
+body{font-family:Tahoma,arial,"微软雅黑","宋体","黑体";-webkit-font-smoothing: antialiased;font-size: 12px;color: #666;}
+.clearfix:after{content:"200B";height:0;font-size:0;display:block;clear:both;}
+/*-------右侧返回顶部等按钮*/
+.right-line{width:6px;height:947px;position:fixed;right:0;bottom:0;background:#7a6e6e;}
+.right-i{height:534px;position:fixed;right:0;bottom:0;z-index:6}
+.right-i ul li{width:35px;height:35px;margin-top:1px;position:relative;}
+.right-i ul li a{background:#c81623;width:62px;height:35px;color: #fff;font-size: 12px;line-height: 35px;text-align: center;border-radius: 3px 0 0 3px;position:absolute;left:0px;;top: 0;z-index:1;display:none;}
+.right-i ul li span{position:absolute;right:0px;top:0; width:35px;height:35px;background:#7a6e6e url(../images/toolbars.png) no-repeat -87px -175px;z-index:2;border-radius:3px 0 0 3px;}
+.right-i ul li .sp2{background-position:-49px 0px;}
+.right-i ul li .sp3{background-position:-49px -50px;}
+.right-i ul li .sp4{background-position:-49px -100px;}
+.right-i ul li .sp5{background-position:-189px -150px;}
+.right-i ul li .sp6{background-position:-49px -150px;}
+.right-i ul li .sp7{background-position:-49px -250px;}
+.right-i ul li .sp8{background-position:-49px -300px;}
+.right-i ul .icon7{background-position:-49px -250px;margin-top:248px;}
+
+/*-------header顶部导航区域*/
+.header .top{height:30px;background:#e3e4e5;font-size:12px;line-height:30px;color:#666;}
+.inner{width:1210px;;margin:0 auto;}
+.header .top .left{float:left;position: relative;}
+/*配送地址下拉框*/
+.header .top .left .my-drop-down{width: 178px;}
+.header .top .left:hover .my-drop-down{display: block ;}
+.header .top .left .my-drop-down li{margin:10px 10px 5px 5px ;}
+.header .left .my-drop-down li:hover a{background-color:#e3e4e5 }
+.header .top .left .my-drop-down .default-place a{background-color: #f10215;color: #fff;}
+.header .top i{font-style:normal;width:10px;height:6px;line-height:0;display:inline-block;overflow:hidden;margin-left:9px;text-decoration:none;font-family: cursive;}
+.header .top ul{float:right;}
+.header .top li{float:left;position: relative;}
+/*我的京东下拉框*/
+.header .top .my-drop-down .drop-down-second{float: none;}
+.header .top .my-drop-down .drop-down-first{float:none;border-bottom:1px solid #e3e4e5;}
+.header .top .my-drop-down{display: none;position: absolute;top:30px;width: 167px;  background: #fff;border: 1px solid #e3e4e5; border-top-color: transparent;left: -1px;}
+.header .top .myJD:hover .my-drop-down{display: block  ;}
+.header .top a{color:#666;padding:0 10px;display:inline-block;}
+.header .top .line{width:1px;height:12px;background:#dddddd;margin-top:9px;}
+.header .top .bianbai:hover{background-color:#fff;}
+.header .top a:hover{color:#c81623;}
+.header .top .a-second{color:#f10215;padding-left:0;}
+.header .top .left:hover{background-color:#fff;}
+.header .top span{background-image:url(../images/jd2015img.png);display:inline-block;width:15px;
+    height:20px;margin:5px 3px 0 0;float:left}
+.header .top .a-third:hover span{background-position:0 -25px;}
+/*-------header中部区域:包括logo，搜索框，购物车*/
+.header .h-middle{height:100px;}
+.header .h-middle .logo{float:left;padding:19px 92px 17px 0;}
+.header .h-middle .middle{float:left;padding-top:25px;}
+.header .h-middle form{float:left;}
+.header .h-middle input{float:left;border:2px solid #b61d1d;width:450px;height:32px;padding-left:4px;color:#666;font-family:"Microsoft YaHei";font-size:13px;line-height:32px;}
+.header .h-middle button{float:left;width:82px;height:36px;background:#b61d1d;color:#fff;font-size:16px;line-height:36px;cursor:pointer;text-align:center;}
+.header .h-middle ul{}
+.header .h-middle li{float:left;}
+
+.header .h-middle li a{display:inline-block;float:left;font:12px/28px "宋体";color:#666;margin-right:11px;}
+.header .h-middle li .a-ertong{color:#c81623;}
+.header .h-middle li a:hover{color:#c81623;}
+.header .h-middle .right{float:right;height:34px;background:#f9f9f9 url(../images/jd2015img.png) no-repeat 19px -48px;border:1px solid #dfdfdf;margin:25px 65px 0 0;position:relative;padding-right:11px;}
+.header .h-middle .right a{font:12px/34px "宋体";padding-left:43px;padding-right:21px;color:#666;}
+.header .h-middle .right i{color:#a2a2a2;font-family:consolas;font-style:normal;}
+.header .h-middle .right a:hover{color:#c81623}
+.header .h-middle .right .num{height:14px;font:12px/14px "宋体";color:#FFFFFF;text-align:center;border-radius:6px 6px 6px 0;background:#c81623;position:absolute;top:-4px;left:104px;padding:0 5px;}
+/*-------header底部导航区域*/
+.header .h-bot{height:44px;border-bottom:2px solid #b1191a;}
+.header .h-bot .all{float:left;width:200px;height:44px;background:#b1191a;line-height:44px;color:#fff;font-size:16px;padding-left:10px;}
+.header .h-bot ul{float:left;}
+.header .h-bot li{float:left;line-height:44px;padding:0 20px;}
+.header .h-bot li a{color:#333;font-size:16px;}
+.header .h-bot li a:hover{color:#c81623;}

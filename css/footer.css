@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.footer{height:385px;}
+/*footer顶部导航区域*/
+.footer .footer-top{height:188px;border-bottom:1px solid #e5e5e5;}
+.footer .footer-top dl{float:left;width:199px;}
+.footer .footer-top dt{height:36px;font:16px/36px "Microsoft YaHei";}
+.footer .footer-top dd{height:20px;font:12px/20px "宋体";}
+.footer .footer-top a{color:#666;}
+.footer .footer-top a:hover{color:#c81623;}
+.footer .footer-top .last{width:164px;}
+.footer .footer-top .right{width:185px;padding:0 45px 0 20px;height:171px;background:url(../images/20130330B_1.png) no-repeat left -132px;}
+.footer .footer-top .right dd{height:auto;}
+.footer .footer-top .right .lookfor a{float:right;position:relative;}
+.footer .footer-top .right .lookfor a i{font-size:12px;font-family:consolas;position:absolute;top:0px;right:-10px;}
+/*footer底部licence区域及copyright区域*/
+.footer .footer-bot{text-align:center;padding-top:11px;height:185px;color:#666;}
+.footer .footer-bot ul{display:inline-block;}
+.footer .footer-bot li{float:left;font-size:12px;font-family:"宋体";height:20px;line-height:20px;}
+.footer .footer-bot li a{display:inline-block;}
+.footer .footer-bot li i{display:block;float:left;}
+.footer .footer-bot li span{padding:0 7px 0 8px;color:#9b669b;}
+.footer .footer-bot .first li{height:36px;line-height:36px;font-size:12px;}
+.footer .footer-bot .second li{height:18px;line-height:18px;}
+.footer .footer-bot .third li{float:left;}
+.footer .footer-bot .last{padding:9px 0px;height:32px;}
+.footer .footer-bot .last li{padding:0 7px 0 6px;}
+.footer .footer-bot a:hover{color:#c81623;}
+.footer .footer-bot a{color:#666;}
